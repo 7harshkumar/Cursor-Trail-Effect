@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canvas Cursor Trail Effect</title>
+  <style>
+   body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #165f4c;
+}
+
+.trail {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #e7bf12;
+  border-radius: 50%;
+  pointer-events: none;
+  will-change: transform;
+}
+.heading {
+      --fontSize: 40px;
+      --lineHeight: 80px;
+      width: auto;
+      height: calc(2 * var(--lineHeight));
+      line-height: var(--lineHeight);
+      margin: calc(50vh - var(--lineHeight)) auto 0;
+      font-size: var(--fontSize);
+      text-transform: uppercase;
+      overflow: hidden;
+      touch-action: pan-up;
+      color: #caa495;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      text-shadow: 0 0 5px #11171d, 0 0 20px #000, 0 0 30px #000;
+    }
+
+  </style>
+</head>
+<body><h1 class = heading>Cursor-Trail</h1>
+  <script src="canvasTrail.js"></script>
+</body>
+</html>
