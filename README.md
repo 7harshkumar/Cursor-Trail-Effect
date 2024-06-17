@@ -21,10 +21,5 @@ Follow these instructions to set up and run the project on your local machine.<b
 You need a modern web browser that supports ES6 modules. No additional installations are required.
 <br>
 
-### Installation
-<br>
-1. **Clone the repository** (if using version control):<br>
-   ```bash
-   git clone https://github.com/your-username/neon-cursor-effect.git
-   cd neon-cursor-effect
+
 
