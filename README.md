@@ -17,7 +17,6 @@ This project demonstrates how to create a neon cursor effect using the `threejs-
 Follow these instructions to set up and run the project on your local machine.<br>
 
 ### Prerequisites
-<br>
 You need a modern web browser that supports ES6 modules. No additional installations are required.
 <br>
 
